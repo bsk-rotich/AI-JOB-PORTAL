@@ -50,7 +50,7 @@ DEBUG = os.environ.get('DEBUG', 'True').lower() in ('1', 'true', 'yes')
 
 ALLOWED_HOSTS = [
     'ai-job-portal-eta.vercel.app',
-    'ai-job-portal-r30p.onrender.com',
+    'ai-job-portal-9ybr.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
@@ -61,7 +61,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'https://ai-job-portal-eta.vercel.app',
-    'https://ai-job-portal-r30p.onrender.com'
+    'https://ai-job-portal-9ybr.onrender.com'
 ]
 
 # Additional CORS settings for preflight requests
