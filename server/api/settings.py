@@ -49,7 +49,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-_tdk8_v**-gcfwww!#qf3
 DEBUG = os.environ.get('DEBUG', 'True').lower() in ('1', 'true', 'yes')
 
 ALLOWED_HOSTS = [
-    'ai-job-portal-kohl.vercel.app',
+    'ai-job-portal-eta.vercel.app',
     'ai-job-portal-r30p.onrender.com',
     'localhost',
     '127.0.0.1',
@@ -60,7 +60,7 @@ CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
-    'https://ai-job-portal-kohl.vercel.app',
+    'https://ai-job-portal-eta.vercel.app',
     'https://ai-job-portal-r30p.onrender.com'
 ]
 
